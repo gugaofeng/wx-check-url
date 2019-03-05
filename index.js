@@ -32,7 +32,7 @@ class Main {
       }
       console.log('循环开始====')
       await this.checkOne();
-      console.log('rows:', this.rows);
+      // console.log('rows:', this.rows);
       return this.rows;
     } catch (error) {
       console.log('XXXX error:', error.message)
