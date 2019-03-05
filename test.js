@@ -16,10 +16,8 @@ let testObj = new CheckUrl({
 });
 
 const rows = [
-  { url: 'http://qyunrh.4ak94fyh.cn/t.php?EV4icTd.css', id: 1 },
-  { url: 'http://qyunrh.ljvedu28.cn/t.php?EV4icTd.css', id: 2 },
-  { url: 'http://qyunrh.52hjqy4l.cn/t.php?EV4icTd.css', id: 3 },
-  { url: 'http://qyunrh.kd27ipsu.cn/t.php?EV4icTd.css', id: 4 }
+  { url: 'https://www.baidu.com/', id: 2 },
+  { url: 'https://www.zidanduanxin.com', id: 4 }
 ];
 testObj.init(rows);
 
